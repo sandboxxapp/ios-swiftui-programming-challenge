@@ -23,6 +23,7 @@
 		35C3366427AC87210099F2E6 /* TransportItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366327AC87210099F2E6 /* TransportItemView.swift */; };
 		35C3366727AC8F250099F2E6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366627AC8F250099F2E6 /* Image.swift */; };
 		35C3366927AC948F0099F2E6 /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366827AC948F0099F2E6 /* MockAPIManager.swift */; };
+		35C3366B27AC99EC0099F2E6 /* TransportListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366A27AC99EC0099F2E6 /* TransportListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		35C3366327AC87210099F2E6 /* TransportItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportItemView.swift; sourceTree = "<group>"; };
 		35C3366627AC8F250099F2E6 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		35C3366827AC948F0099F2E6 /* MockAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
+		35C3366A27AC99EC0099F2E6 /* TransportListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 			children = (
 				35C3362A27AC61A10099F2E6 /* TransportListScreen.swift */,
 				35C3366327AC87210099F2E6 /* TransportItemView.swift */,
+				35C3366A27AC99EC0099F2E6 /* TransportListViewModel.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				35C3366B27AC99EC0099F2E6 /* TransportListViewModel.swift in Sources */,
 				35C3365A27AC75120099F2E6 /* VehicleJson.swift in Sources */,
 				35C3366127AC78C20099F2E6 /* SwapiAPIManager.swift in Sources */,
 				35C3366927AC948F0099F2E6 /* MockAPIManager.swift in Sources */,

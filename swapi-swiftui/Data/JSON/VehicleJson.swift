@@ -7,11 +7,15 @@
 
 import Foundation
 
-struct VehicleJson: Codable {
+struct VehicleJson: Codable, Identifiable {
   let name: String
   let model: String
   let url: String
   let cargoCapacity: String
+  
+  var id: String {
+    return url
+  }
   
   private enum CodingKeys: String, CodingKey {
     case name

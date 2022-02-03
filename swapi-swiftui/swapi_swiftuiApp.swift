@@ -11,7 +11,8 @@ import SwiftUI
 struct swapi_swiftuiApp: App {
   var body: some Scene {
     WindowGroup {
-      TransportListScreen(apiManager: SwapiAPIManager())
+      let transportListViewModel = TransportListViewModel(apiManager:  SwapiAPIManager())
+      TransportListScreen(viewModel: transportListViewModel)
     }
   }
 }

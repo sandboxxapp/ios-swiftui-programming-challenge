@@ -45,7 +45,6 @@ struct TransportItemView_Previews: PreviewProvider {
                               model: "Digger Crawler",
                               url: "https://swapi.dev/api/vehicles/4/",
                               cargoCapacity: "50000")
-    
     VStack {
       TransportItemView(vehicle: vehicle)
       TransportItemView(vehicle: vehicle)

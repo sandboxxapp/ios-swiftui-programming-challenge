@@ -8,15 +8,13 @@
 import SwiftUI
 
 struct TransportListScreen: View {
-  private let apiManager: APIManager
-  
-  init(apiManager: APIManager) {
-    self.apiManager = apiManager
-  }
+  @ObservedObject var viewModel: TransportListViewModel
   
   var body: some View {
-    Text("Hello, world!")
-      .padding()
+    List(viewModel.vehicles) { vehicle in
+      TransportItemView(vehicle: vehicle)
+    }
+    .onAppear { viewModel.loadVehicles() }
   }
 }
 
@@ -26,6 +24,7 @@ struct TransportListScreen: View {
 struct TransportListScreen_Previews: PreviewProvider {
   static var previews: some View {
     let mockAPIManager = MockAPIManager()
-    TransportListScreen(apiManager: mockAPIManager)
+    let viewModel = TransportListViewModel(apiManager: mockAPIManager)
+    TransportListScreen(viewModel: viewModel)
   }
 }
