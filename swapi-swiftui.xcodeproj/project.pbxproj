@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		35C3362927AC61A10099F2E6 /* swapi_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3362827AC61A10099F2E6 /* swapi_swiftuiApp.swift */; };
-		35C3362B27AC61A10099F2E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3362A27AC61A10099F2E6 /* ContentView.swift */; };
+		35C3362B27AC61A10099F2E6 /* TransportListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3362A27AC61A10099F2E6 /* TransportListScreen.swift */; };
 		35C3362D27AC61A20099F2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C3362C27AC61A20099F2E6 /* Assets.xcassets */; };
 		35C3363027AC61A20099F2E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C3362F27AC61A20099F2E6 /* Preview Assets.xcassets */; };
 		35C3363A27AC61A20099F2E6 /* swapi_swiftuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3363927AC61A20099F2E6 /* swapi_swiftuiTests.swift */; };
@@ -22,6 +22,7 @@
 		35C3366127AC78C20099F2E6 /* SwapiAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366027AC78C20099F2E6 /* SwapiAPIManager.swift */; };
 		35C3366427AC87210099F2E6 /* TransportItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366327AC87210099F2E6 /* TransportItemView.swift */; };
 		35C3366727AC8F250099F2E6 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366627AC8F250099F2E6 /* Image.swift */; };
+		35C3366927AC948F0099F2E6 /* MockAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3366827AC948F0099F2E6 /* MockAPIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +45,7 @@
 /* Begin PBXFileReference section */
 		35C3362527AC61A10099F2E6 /* swapi-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swapi-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C3362827AC61A10099F2E6 /* swapi_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapi_swiftuiApp.swift; sourceTree = "<group>"; };
-		35C3362A27AC61A10099F2E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		35C3362A27AC61A10099F2E6 /* TransportListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportListScreen.swift; sourceTree = "<group>"; };
 		35C3362C27AC61A20099F2E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35C3362F27AC61A20099F2E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		35C3363527AC61A20099F2E6 /* swapi-swiftuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swapi-swiftuiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +61,7 @@
 		35C3366027AC78C20099F2E6 /* SwapiAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapiAPIManager.swift; sourceTree = "<group>"; };
 		35C3366327AC87210099F2E6 /* TransportItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportItemView.swift; sourceTree = "<group>"; };
 		35C3366627AC8F250099F2E6 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		35C3366827AC948F0099F2E6 /* MockAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				35C3362F27AC61A20099F2E6 /* Preview Assets.xcassets */,
+				35C3366827AC948F0099F2E6 /* MockAPIManager.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -185,7 +188,7 @@
 		35C3366227AC86DD0099F2E6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				35C3362A27AC61A10099F2E6 /* ContentView.swift */,
+				35C3362A27AC61A10099F2E6 /* TransportListScreen.swift */,
 				35C3366327AC87210099F2E6 /* TransportItemView.swift */,
 			);
 			path = Views;
@@ -331,7 +334,8 @@
 			files = (
 				35C3365A27AC75120099F2E6 /* VehicleJson.swift in Sources */,
 				35C3366127AC78C20099F2E6 /* SwapiAPIManager.swift in Sources */,
-				35C3362B27AC61A10099F2E6 /* ContentView.swift in Sources */,
+				35C3366927AC948F0099F2E6 /* MockAPIManager.swift in Sources */,
+				35C3362B27AC61A10099F2E6 /* TransportListScreen.swift in Sources */,
 				35C3362927AC61A10099F2E6 /* swapi_swiftuiApp.swift in Sources */,
 				35C3365C27AC75ED0099F2E6 /* VehicleListResult.swift in Sources */,
 				35C3365727AC728F0099F2E6 /* NetworkErrorCallback.swift in Sources */,

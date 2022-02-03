@@ -34,7 +34,6 @@ struct TransportItemView: View {
         .frame(alignment: .bottomTrailing)
     }
     .frame(alignment: .leading)
-    
   }
 }
 
