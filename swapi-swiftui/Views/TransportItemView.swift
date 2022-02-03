@@ -38,6 +38,8 @@ struct TransportItemView: View {
   }
 }
 
+// MARK: Previews
+
 struct TransportItemView_Previews: PreviewProvider {
   static var previews: some View {
     let vehicle = VehicleJson(name: "Sand Crawler",
