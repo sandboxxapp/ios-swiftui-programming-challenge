@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		359E81C727B1A21500DA7535 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 359E81C627B1A21500DA7535 /* README.md */; };
 		35C3362927AC61A10099F2E6 /* swapi_swiftuiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3362827AC61A10099F2E6 /* swapi_swiftuiApp.swift */; };
 		35C3362B27AC61A10099F2E6 /* TransportListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C3362A27AC61A10099F2E6 /* TransportListScreen.swift */; };
 		35C3362D27AC61A20099F2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35C3362C27AC61A20099F2E6 /* Assets.xcassets */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		359E81C627B1A21500DA7535 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		35C3362527AC61A10099F2E6 /* swapi-swiftui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swapi-swiftui.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35C3362827AC61A10099F2E6 /* swapi_swiftuiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swapi_swiftuiApp.swift; sourceTree = "<group>"; };
 		35C3362A27AC61A10099F2E6 /* TransportListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransportListScreen.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		35C3361C27AC61A10099F2E6 = {
 			isa = PBXGroup;
 			children = (
+				359E81C627B1A21500DA7535 /* README.md */,
 				35C3362727AC61A10099F2E6 /* swapi-swiftui */,
 				35C3363827AC61A20099F2E6 /* swapi-swiftuiTests */,
 				35C3364227AC61A20099F2E6 /* swapi-swiftuiUITests */,
@@ -309,6 +312,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				359E81C727B1A21500DA7535 /* README.md in Resources */,
 				35C3363027AC61A20099F2E6 /* Preview Assets.xcassets in Resources */,
 				35C3362D27AC61A20099F2E6 /* Assets.xcassets in Resources */,
 			);

@@ -29,13 +29,15 @@ We also setup the starter codebase to be flawed, walk us through improvements an
 Inform us how we could make our code more testable.
 
 
+## Allowances
+* Google
+* Any third party library, just don't use Cocoapods for package management.
+
+
 ## Starting Point
 
 Finish the skeleton application provided here.
 
 The starter project currently functions to display a list of Vehicle objects only.  See screenshot below:
 
-
-## Allowances
-* Google
-* Any third party library, just don't use Cocoapods for package management.
+![alt text](starter_screensh.png)
