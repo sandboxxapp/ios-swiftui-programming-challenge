@@ -40,4 +40,4 @@ Finish the skeleton application provided here.
 
 The starter project currently functions to display a list of Vehicle objects only.  See screenshot below:
 
-![alt text](starter_screensh.png)
+![App Screenshot](starter_screenshot.png)
