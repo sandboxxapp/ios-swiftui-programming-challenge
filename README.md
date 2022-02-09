@@ -3,7 +3,7 @@ Starter Project for the iOS Programming Challenge in SwiftUI
 
 > This exercise must be performed in **Swift**. 
 > 
-> Third party libraries may be used, but must be consumed using any Package Manager except for Cocoapods
+> Third party libraries may be used, but must be consumed using any Package Manager (Swift Package Manager Preffered)
 
 ## Candidate Requirements
 * The candidate must arrive to the interview with a machine setup running the latest Xcode version from the App Store.
@@ -13,12 +13,13 @@ Starter Project for the iOS Programming Challenge in SwiftUI
 ## App Requirements
 Create an application that displays a list of Vehicles and Starships in a single list.  This application will be used by members of the Dark side and Jedi forces to lookup suitable vehicles for upcoming battles. 
 
+* The sample app talks about Star Wars
+* App data can be fetched from the Star Wars API https://swapi.dev/documentation  
 * Within the list, display the name of the Starship or Vehicle by Cargo Capacity in descending order.
 * Update the UI to distinguish Starship from a Vehicle
-    * Hint: Assets are already loaded on to the sample project
+    * Hint:Assets are already loaded on to the sample project for Vehicle type and Starship type
 * Do not load any UI until Vehicle and Starship data have been fetched from the API
 * Add a loading spinner that indicates the data is loading
-* App data can be fetched from the Star Wars API https://swapi.dev/documentation  
 
 
 ## What we are looking for
@@ -28,6 +29,10 @@ We also setup the starter codebase to be flawed, walk us through improvements an
 
 Inform us how we could make our code more testable.
 
+# Breif expectations:
+Architecture
+Testability
+Optimization and Resuability
 
 ## Allowances
 * Google
