@@ -30,9 +30,9 @@ We also setup the starter codebase to be flawed, walk us through improvements an
 Inform us how we could make our code more testable.
 
 # Breif expectations:
-Architecture
-Testability
-Optimization and Resuability
+ * Architecture
+ * Testability
+ *  Optimization and Resuability
 
 ## Allowances
 * Google
